@@ -44,7 +44,7 @@ const NoteList = ({
         </Col>
         <Col xs="auto">
           <Stack direction="horizontal" gap={2}>
-            <Link to="/new">
+            <Link to="/Notes-App/new">
               <Button variant="primary">Create</Button>
             </Link>
             <Button

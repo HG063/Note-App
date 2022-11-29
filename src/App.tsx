@@ -105,7 +105,7 @@ function App() {
       <Router>
         <Routes>
           <Route
-            path="/"
+            path="/Notes-App"
             element={
               <NoteList
                 notes={notesWithTags}
@@ -116,7 +116,7 @@ function App() {
             }
           />
           <Route
-            path="/new"
+            path="/Notes-App/new"
             element={
               <NewNote
                 onSubmit={onCreateNote}
@@ -125,7 +125,9 @@ function App() {
               />
             }
           />
-          <Route path="/:id" element={<NoteLayout notes={notesWithTags} />}>
+          <Route
+            path="/Notes-App/:id"
+            element={<NoteLayout notes={notesWithTags} />}>
             <Route index element={<Note onDelete={onDeleteNote} />} />
             <Route
               path="edit"
@@ -138,7 +140,7 @@ function App() {
               }
             />
           </Route>
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/Notes-App" />} />
         </Routes>
       </Router>
     </div>

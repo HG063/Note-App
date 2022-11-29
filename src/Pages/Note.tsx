@@ -29,18 +29,18 @@ const Note = ({ onDelete }: NoteProps) => {
         </Col>
         <Col xs="auto">
           <Stack direction="horizontal" gap={2}>
-            <Link to={`/${note.id}/edit`}>
+            <Link to={`/Notes-App/${note.id}/edit`}>
               <Button variant="primary">Edit</Button>
             </Link>
             <Button
               onClick={() => {
                 onDelete(note.id);
-                navigate("/");
+                navigate("/Notes-App");
               }}
               variant="outline-danger">
               Delete
             </Button>
-            <Link to="/">
+            <Link to="/Notes-App">
               <Button variant="outline-secondary">Back</Button>
             </Link>
           </Stack>
