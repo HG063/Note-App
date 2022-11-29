@@ -13,6 +13,7 @@ import { NoteLayout } from "./Components/NoteLayout";
 import Note from "./Pages/Note";
 import EditNote from "./Pages/EditNote";
 
+// eslint-disable-next-line
 export type Note = {
   id: string;
 } & NoteData;
