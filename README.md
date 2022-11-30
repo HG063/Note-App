@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Link :- https://hg063.github.io/Notes-App/ 
 
-## Available Scripts
+A Note Taking App built with fully typescript and has a category feature and markdown support. All Notes are saving in the Local Storage of the browser.
 
-In the project directory, you can run:
+### View All Notes On Home Page
+![Notes1](https://user-images.githubusercontent.com/44071644/204724331-af65f971-833f-4aeb-8218-af24da1a3fd1.jpg)
 
-### `npm start`
+### Create Notes
+![Notes2](https://user-images.githubusercontent.com/44071644/204724367-db4d3f08-d25c-4c20-8560-c77bdef667a0.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### View Notes and Edit or Delete it
+![Notes3](https://user-images.githubusercontent.com/44071644/204724379-c5c0616c-f69b-4282-a008-df463a9d2d07.jpg)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Edit Tags
+![Notes4](https://user-images.githubusercontent.com/44071644/204724387-8adae5b7-2c15-46b9-a097-94e3448c738d.jpg)
 
-### `npm test`
+### Search Notes by Tag Filter
+![Notes5](https://user-images.githubusercontent.com/44071644/204724399-28200dd8-5221-447f-95f3-904bd50aaacb.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Search Notes by Title Filter
+![Notes6](https://user-images.githubusercontent.com/44071644/204724407-ec08cb24-026e-4967-9772-9a5849f7719e.jpg)
